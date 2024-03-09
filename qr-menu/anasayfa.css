@@ -1,0 +1,184 @@
+/*! base start  */
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+  url("staticimg/qwe.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+
+.logo a{
+    color:white;
+    text-decoration: none;
+}
+
+.logo{max-width: 200px;}
+
+.logo a img{
+  width: 100%;
+}
+
+header{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    border-bottom: solid 5px black;
+    background-color: white;
+}
+.campaign-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.campaign{
+  background-color:rgb(66, 36, 36);
+  padding: 20px;
+  border-radius: 20px;
+  width: 340px;
+}
+
+.campaign h2{
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.campaign-item{
+  border: solid 0.3px wheat;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+
+.campaign-item .top img{
+  width: 100%;
+  border-radius: 20px;
+}
+
+
+section .title{
+    text-align: center;
+    padding: 20px;
+}
+
+section .category-wrapper{
+   
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+section .category-wrapper a{
+    text-decoration: none;
+    color: white;
+}
+
+section .category-wrapper .category-item1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),
+  url("staticimg/kahve.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    border: 1px solid white;
+    width: 340px;
+}
+
+section .category-wrapper .category-item2{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),
+url("staticimg/tea.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 150px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  border: 1px solid white;
+  width: 340px;
+}
+
+section .category-wrapper .category-item3{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),
+url("firuzeozel/firuze.jpeg");
+  background-position: center;
+  background-size: cover;
+  height: 150px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  border: 1px solid white;
+  width: 340px;
+}
+
+section .category-wrapper .category-item4{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),
+url("tatlilar/SanSebastianCheesecake.jpeg");
+  background-position: center;
+  background-size: cover;
+  height: 150px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  border: 1px solid white;
+  width: 340px;
+}
+
+section .category-wrapper .category-item5{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),
+url("staticimg/coollime.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 150px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  border: 1px solid white;
+  width: 340px;
+}
+
+
+section .category-wrapper .category-item6{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),
+url("staticimg/qwe.jpg");
+  background-position: top;
+  background-size:cover ;
+  height: 150px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  border: 1px solid white;
+  width: 340px;
+}
